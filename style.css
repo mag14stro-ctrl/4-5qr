@@ -1,0 +1,87 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #4f46e5, #9333ea);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.qr-container {
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  border-radius: 25px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  width: 380px;
+  color: #fff;
+  text-align: center;
+}
+
+.qr-container h1 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.qr-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 15px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.options label {
+  grid-column: span 2;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.options input,
+.options select {
+  width: 100%;
+  padding: 6px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #1e40af;
+  transform: scale(1.05);
+}
+
+.qr-code {
+  margin: 20px auto;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.download {
+  background: #10b981;
+}
